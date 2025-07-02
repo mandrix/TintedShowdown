@@ -17,7 +17,6 @@ public class ActionPlayerManager : MonoBehaviour
     [Header("Player Settings")]
     [SerializeField] private ColorOption colorOption;
     [SerializeField] private ColorOption colorWeapon;
-    public Color weaponColor;
 
     public ActionPlayerManager enemy;
     public Renderer playerRenderer;
